@@ -114,11 +114,11 @@ TpSection:NewButton("Go to the Dual Tower", "", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(484.608429, 68.6672058, -387.710541, -0.999360085, -7.54597522e-08, -0.0357683562, -7.64771215e-08, 1, 2.70751688e-08, 0.0357683562, 2.97933038e-08, -0.999360085)
 end)
 
-TpSection:NewButton("Go to mini tower", "", function()
+TpSection:NewButton("Go to the mini tower", "", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(430.462433, 35.7596512, -131.441513, 0.0067421901, -7.16364035e-09, 0.999977291, 4.06004546e-08, 1, 6.89006097e-09, -0.999977291, 4.05530756e-08, 0.0067421901)
 end)
 
-TpSection:NewButton("Go to mini tower 2", "", function()
+TpSection:NewButton("Go to the mini tower 2", "", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-77.2806396, 33.6151199, -69.4932022, 0.0283908024, -4.91642353e-08, -0.999596894, 6.37101536e-08, 1, -4.73745487e-08, 0.999596894, -6.2339474e-08, 0.0283908024)
 end)
 
