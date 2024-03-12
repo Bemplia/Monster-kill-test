@@ -179,7 +179,7 @@ end)
 end
 end)
 
-SafeZoneSEction:NewButton("Go to Safe Zone", "Telepor to Safe Zone", function()
+SafeZoneSection:NewButton("Go to Safe Zone", "Telepor to Safe Zone", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(9996.72949, 10003.4971, 9986.34082, -0.155898228, -6.66379236e-08, 0.98777312, 5.69063801e-08, 1, 7.64442021e-08, -0.98777312, 6.81281094e-08, -0.155898228)
 end)
 
