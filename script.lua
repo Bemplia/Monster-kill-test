@@ -122,7 +122,7 @@ TpSection:NewButton("Go to mini tower 2", "", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-77.2806396, 33.6151199, -69.4932022, 0.0283908024, -4.91642353e-08, -0.999596894, 6.37101536e-08, 1, -4.73745487e-08, 0.999596894, -6.2339474e-08, 0.0283908024)
 end)
 
-TpSection:NewButton("Go to the storage", "", function()
+TpSection:NewButton("Go to the tower", "", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5.29672098, 69.9563751, -551.292297, -0.999872088, -1.88271745e-08, 0.0159926582, -1.94159906e-08, 1, -3.66626836e-08, -0.0159926582, -3.69685083e-08, -0.999872088)
 end)
 
