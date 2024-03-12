@@ -40,7 +40,7 @@ game.Players.LocalPlayer.Character.Humanoid.Jump = true
 end
 end)
 
-MainSection:NewToggle("Freeze The Rake", "WOW", function(state)
+MainSection:NewToggle("Freeze The Monster", "WOW", function(state)
 if state then
     game:GetService("Workspace").Monster.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
     game:GetService("Workspace").Monster.HumanoidRootPart.Anchored = true
