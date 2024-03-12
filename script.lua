@@ -179,8 +179,11 @@ end)
 end
 end)
 
-SafeZoneSection:NewButton("Go to Safe Zone", "Click", function()
-local detect = 0
+SafeZoneSEction:NewButton("Go to Safe Zone", "Telepor to Safe Zone", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(9996.72949, 10003.4971, 9986.34082, -0.155898228, -6.66379236e-08, 0.98777312, 5.69063801e-08, 1, 7.64442021e-08, -0.98777312, 6.81281094e-08, -0.155898228)
+end)
+
+SafeZoneSection:NewButton("Create Safe Zone", "Click", function()
 local Float = Instance.new("Part",workspace);
 Float.Size = Vector3.new(50, 1, 50);
 Float.Position = Vector3.new(10000, 10000, 10000);
@@ -189,12 +192,6 @@ Float.Material = "Wood"
 Float.Anchored = true;
 Float.CanCollide = true;
 Float.Transparency = 0;
-detect = detect + 1
-if detect == 2 then
-game.Workspace.EXPLOITPART:Destroy()
-detect = 1
-end
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(9996.72949, 10003.4971, 9986.34082, -0.155898228, -6.66379236e-08, 0.98777312, 5.69063801e-08, 1, 7.64442021e-08, -0.98777312, 6.81281094e-08, -0.155898228)
 end)
 
 SafeZoneSection:NewColorPicker("Plate Color", "Change plate color", Color3.fromRGB(225,225,225), function(s)
